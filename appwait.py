@@ -12,7 +12,7 @@ async def run_memory_chat():
     os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
     # Config file path - Change this to your config file path
-    config_file = "browser_mcp.json" 
+    config_file = "../.vscode/mcp.json" 
 
     print("Initializing chat...")
 

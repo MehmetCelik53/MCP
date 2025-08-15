@@ -50,19 +50,23 @@ Example queries:
 
 ```
 ├── app.py              # Main application file
-├── appwait.py          # Rate-limited version of the app
-├── browser_mcp.json    # MCP server configuration
-├── pyproject.toml      # Project dependencies and metadata
-├── .env                # Environment variables (create this)
-└── README.md           # Project documentation
+├── appwait.py         # Rate-limited version of the app
+├── .vscode/           # VS Code configuration directory
+│   └── mcp.json      # MCP server configuration
+├── pyproject.toml     # Project dependencies and metadata
+├── .env              # Environment variables (create this)
+└── README.md         # Project documentation
 ```
 
 ## Configuration
 
-The `browser_mcp.json` file contains configurations for different MCP servers:
+The `.vscode/mcp.json` file contains configurations for different MCP servers:
 - Playwright for browser automation
 - Airline-specific servers
 - Search engines
+- Additional service providers
+
+You can modify the configuration file to add or remove services as needed.
 
 ## Features in Detail
 

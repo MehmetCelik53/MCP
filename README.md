@@ -97,4 +97,4 @@ For support, please open an issue in the GitHub repository.
 ---
 
 ## Türkçe Açıklama
-Bu proje, uçuş aramalarını ve tarayıcı etkileşimlerini otomatikleştirmek için Model Context Protocol (MCP) sistemini uygular. Doğal dil komutlarıyla birden fazla havayolu ve seyahat servisi arasında kolayca arama yapabilirsiniz. Kurulum ve kullanım adımları yukarıda açıklanmıştır. İngilizce bilmeyenler için özet: Python ile uçuş araması ve otomasyon sağlar, kolayca kurulup kullanılabilir.
+Bu proje, uçuş aramalarını ve tarayıcı etkileşimlerini otomatikleştirmek için Model Context Protocol (MCP) sistemini uygular. Doğal dil komutlarıyla birden fazla havayolu ve seyahat servisi arasında kolayca arama yapabilirsiniz. Kurulum ve kullanım adımları yukarıda açıklanmıştır.

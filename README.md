@@ -96,5 +96,26 @@ For support, please open an issue in the GitHub repository.
 
 ---
 
-## Türkçe Açıklama
-Bu proje, uçuş aramalarını ve tarayıcı etkileşimlerini otomatikleştirmek için Model Context Protocol (MCP) sistemini uygular. Doğal dil komutlarıyla birden fazla havayolu ve seyahat servisi arasında kolayca arama yapabilirsiniz. Kurulum ve kullanım adımları yukarıda açıklanmıştır.
+## 🇹🇷 Türkçe Özet
+
+Bu proje, uçuş aramalarını ve tarayıcı etkileşimlerini otomatikleştirmek için Model Context Protocol (MCP) sistemi geliştirmiştir. Ana özellikleri:
+
+### 🔍 Ne Yapar?
+- **Akıllı Uçuş Arama**: Doğal dilde yazılan sorguları anlayarak uçuş arar
+- **Otomatik Tarayıcı Kontrolü**: Playwright kullanarak web sitelerinde gezinir
+- **Çoklu Havayolu Desteği**: Birden fazla havayolu ve seyahat sitesinde arama yapar
+- **Sohbet Geçmişi**: Önceki aramalarınızı hatırlar ve bağlam kurarak daha akıllı cevaplar verir
+
+### 💻 Teknik Özellikler
+- **Python 3.13+** tabanlı
+- **Hız Sınırlaması**: API'leri aşırı yüklemeden koruma
+- **Modüler Yapı**: Kolayca yeni servis sağlayıcıları eklenebilir
+- **Konfigürasyonlu**: `.vscode/mcp.json` ile özelleştirilebilir
+
+### 🚀 Nasıl Kullanılır?
+1. Projeyi klonlayın ve bağımlılıkları yükleyin
+2. `.env` dosyasına API anahtarlarınızı ekleyin
+3. `python app.py` ile çalıştırın
+4. "İstanbul'dan İzmir'e uçuş bul" gibi doğal dilde sorgular yazın
+
+Bu proje, seyahat planlaması yaparken zaman kazandıran, kullanıcı dostu bir araçtır.
